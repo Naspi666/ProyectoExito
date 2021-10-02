@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <ProjectReference Include="..\ConsolasExito.App.Dominio\ConsolasExito.App.Dominio.csproj" />
+    <ProjectReference Include="..\ConsolasExito.App.Persistencia\ConsolasExito.App.Persistencia.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+</Project>
