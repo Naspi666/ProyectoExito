@@ -43,9 +43,10 @@
                 <input asp-for="Empleado.Password" class="form-control" />
                 <span asp-validation-for="Empleado.Password" class="text-danger"></span>
             </div>
+            
             <div class="form-group">
                 <label asp-for="Empleado.RolPerson" class="control-label"></label>
-                <select class="form-control">
+                <select asp-for="Empleado.RolPerson" class="form-control">
                     <option value="0">Administador Compras</option>
                     <option value="1">Administrador Ventas</option>
                     <option value="2">Administrador Sistema</option>
@@ -53,6 +54,7 @@
                 </select>
                 <span asp-validation-for="Empleado.RolPerson" class="text-danger"></span>
             </div>
+
             <div class="form-group form-check">
                 <label class="form-check-label">
                     <input class="form-check-input" asp-for="Empleado.accesoReportes" /> @Html.DisplayNameFor(model => model.Empleado.accesoReportes)
