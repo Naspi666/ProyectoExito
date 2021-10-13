@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "azu3yR+vpm39JHCe/ZA9MsZ0JdyYTgxCxpkhPWYFyeWsj23A2Q4mLPAa6zLiLK4257R+obMDgR9fKsJtKjip8Q==",
+  "dgSpecHash": "y83+o07uYZH2Hsu8WyeruqJGaSat4oidocyD6dp5iGa8h9EkVBI/GCkvavI2K6XU/QbouLVD9ZDAjTsM86Zjog==",
   "success": true,
-  "projectFilePath": "C:\\Users\\willi\\OneDrive\\Documents\\ProyectoGrupo61V3\\ConsolasExito.App\\ConsolasExito.App.Presentacion\\ConsolasExito.App.Presentacion.csproj",
+  "projectFilePath": "C:\\Users\\willi\\OneDrive\\Documents\\ProyectoExito\\ProyectoExitoGit\\RepositorioProyectoExito\\ProyectoExito\\ConsolasExito.App\\ConsolasExito.App.Presentacion\\ConsolasExito.App.Presentacion.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\willi\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\willi\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
