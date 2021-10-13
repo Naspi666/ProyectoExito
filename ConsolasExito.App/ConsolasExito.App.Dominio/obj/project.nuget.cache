@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UrBF8GrzmlVD8NT7XFfz79CiJGYjKYfrTPt+8jQn1nQhGGTOmLONPnzveXUV/v04zPAVfV5tHXdW3a7CfGLogA==",
+  "dgSpecHash": "B/4sHH2Xg6nHJmo0GbjgSxKilp2BZ/d3wF1o1v2Dxo9IfSxKVzCL6FewYcii+MUgRduThu4E77Knb1I4e2uMKg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\willi\\OneDrive\\Documents\\ProyectoExito\\ProyectoExitoGit\\RepositorioProyectoExito\\ProyectoExito\\ConsolasExito.App\\ConsolasExito.App.Dominio\\ConsolasExito.App.Dominio.csproj",
+  "projectFilePath": "C:\\Users\\willi\\OneDrive\\Documents\\ProyectoExito\\ProyectoExitoGit\\Proyecto-Exito-Code-\\ConsolasExito.App\\ConsolasExito.App.Dominio\\ConsolasExito.App.Dominio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\willi\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\willi\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

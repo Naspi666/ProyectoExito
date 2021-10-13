@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ywiXDpm0qP+EvpOxKrV2U3c4KWXWGTY7reCxvyleZhvDtRXC74AZ9CKUz+sH0RMLD5IMAsZsS3vWbAFzxwtwbg==",
+  "dgSpecHash": "xKle58WhG6viO/0pVzA2dPPBCxrhc/HJvmtVbC4iIupQ4tV7rbfZ/9qOw3gSUdqQ37/whwO/vDxNHU51EO8hHg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\willi\\OneDrive\\Documents\\ProyectoExito\\ProyectoExitoGit\\RepositorioProyectoExito\\ProyectoExito\\ConsolasExito.App\\ConsolasExito.App.Presentacion\\ConsolasExito.App.Presentacion.csproj",
+  "projectFilePath": "C:\\Users\\willi\\OneDrive\\Documents\\ProyectoExito\\ProyectoExitoGit\\Proyecto-Exito-Code-\\ConsolasExito.App\\ConsolasExito.App.Presentacion\\ConsolasExito.App.Presentacion.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\willi\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\willi\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
