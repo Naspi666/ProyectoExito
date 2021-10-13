@@ -34,6 +34,11 @@
                 <span asp-validation-for="Empleado.Identidad" class="text-danger"></span>
             </div>
             <div class="form-group">
+                <label asp-for="Empleado.sucursal" class="control-label"></label>
+                <input asp-for="Empleado.sucursal" class="form-control" />
+                <span asp-validation-for="Empleado.sucursal" class="text-danger"></span>
+            </div>
+            <div class="form-group">
                 <label asp-for="Empleado.Usuario" class="control-label"></label>
                 <input asp-for="Empleado.Usuario" class="form-control" />
                 <span asp-validation-for="Empleado.Usuario" class="text-danger"></span>
@@ -42,19 +47,17 @@
                 <label asp-for="Empleado.Password" class="control-label"></label>
                 <input asp-for="Empleado.Password" class="form-control" />
                 <span asp-validation-for="Empleado.Password" class="text-danger"></span>
-            </div>
-            
+            </div>           
             <div class="form-group">
                 <label asp-for="Empleado.RolPerson" class="control-label"></label>
                 <select asp-for="Empleado.RolPerson" class="form-control">
-                    <option value="0">Administador Compras</option>
-                    <option value="1">Administrador Ventas</option>
-                    <option value="2">Administrador Sistema</option>
-                    <option value="3">Vendedor</option>
+                    <option value="0">ADMINISTRADOR_COMPRAS</option>
+                    <option value="1">ADMINISTRADOR_VENTAS</option>
+                    <option value="2">ADMINISTRADOR_SISTEMA</option>
+                    <option value="3">VENDEDOR</option>
                 </select>
                 <span asp-validation-for="Empleado.RolPerson" class="text-danger"></span>
             </div>
-
             <div class="form-group form-check">
                 <label class="form-check-label">
                     <input class="form-check-input" asp-for="Empleado.accesoReportes" /> @Html.DisplayNameFor(model => model.Empleado.accesoReportes)

@@ -26,7 +26,6 @@ namespace ConsolasExito.App.Presentacion.Pages.CrudEmpleado
 
         [BindProperty]
         public Empleado Empleado { get; set; }
-        public NombreRol NombreRol { get; set; }
 
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://aka.ms/RazorPagesCRUD.

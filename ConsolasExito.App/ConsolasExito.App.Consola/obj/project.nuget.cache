@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NpaHUSni/FMRDoCyIVEqNYKUz7O82ex66UDvHN0rNSJWaKoRX4GTmK7XWt58RvEWdiHFoNbqxawhP8DeBz+M4w==",
+  "dgSpecHash": "TsFUScHo61oVHozCCLyMUIftmTalnW5UEdpOFD6N6594dAKe3jLf+BFlBrbW1bMKMU+aJ6/ov+jdRbsdJHLiAw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\willi\\OneDrive\\Documents\\ProyectoGrupo61V3\\ConsolasExito.App\\ConsolasExito.App.Consola\\ConsolasExito.App.Consola.csproj",
+  "projectFilePath": "C:\\Users\\willi\\OneDrive\\Documents\\ProyectoExito\\ProyectoExitoGit\\Proyecto-Exito-Code-\\ConsolasExito.App\\ConsolasExito.App.Consola\\ConsolasExito.App.Consola.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\willi\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\willi\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
