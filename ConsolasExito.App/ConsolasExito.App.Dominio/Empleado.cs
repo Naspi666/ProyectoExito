@@ -9,11 +9,13 @@ namespace ConsolasExito.App.Dominio
         public string Apellidos { get; set; }
         public string Edad { get; set; }
         public string Identidad { get; set; }
+        public string sucursal { get; set; }
         public string Usuario { get; set; }
         public string Password { get; set; }
-        public Sucursal sucursal { get; set; }
+        public Sucursal Sucursal { get; set; }
         public NombreRol RolPerson { get; set; }
         public bool accesoReportes { get; set; }
+        
 
 
 

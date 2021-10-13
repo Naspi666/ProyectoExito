@@ -118,18 +118,21 @@ namespace ConsolasExito.App.Persistencia.Migrations
                     b.Property<int>("RolPerson")
                         .HasColumnType("int");
 
+                    b.Property<int?>("SucursalId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Usuario")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("accesoReportes")
                         .HasColumnType("bit");
 
-                    b.Property<int?>("sucursalId")
-                        .HasColumnType("int");
+                    b.Property<string>("sucursal")
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("sucursalId");
+                    b.HasIndex("SucursalId");
 
                     b.ToTable("Empleados");
 
@@ -236,11 +239,11 @@ namespace ConsolasExito.App.Persistencia.Migrations
 
             modelBuilder.Entity("ConsolasExito.App.Dominio.Empleado", b =>
                 {
-                    b.HasOne("ConsolasExito.App.Dominio.Sucursal", "sucursal")
+                    b.HasOne("ConsolasExito.App.Dominio.Sucursal", "Sucursal")
                         .WithMany()
-                        .HasForeignKey("sucursalId");
+                        .HasForeignKey("SucursalId");
 
-                    b.Navigation("sucursal");
+                    b.Navigation("Sucursal");
                 });
 
             modelBuilder.Entity("ConsolasExito.App.Dominio.Venta", b =>

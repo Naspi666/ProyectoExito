@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using ConsolasExito.App.Persistencia;
 
 namespace ConsolasExito.App.Presentacion
 {
@@ -24,6 +25,7 @@ namespace ConsolasExito.App.Presentacion
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+            services.AddDbContext<Conexion>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
