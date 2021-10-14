@@ -13,15 +13,12 @@ namespace ConsolasExito.App.Presentacion.Pages
     {
         [BindProperty]
         public string Usuario { get; set; }
-
         [BindProperty]
         public string Password { get; set; }
-
         [BindProperty]
         public string MensajeUsuario { get; set; }
         [BindProperty]
         public string MensajePassword { get; set; }
-
         public void OnGet()
         {
         }
