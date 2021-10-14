@@ -35,7 +35,7 @@ namespace ConsolasExito.App.Presentacion.Pages
             {
                 if (empleado.Password.Equals(Password))
                 {
-                    return RedirectToPage("../CrudConsola/Index");
+                    return RedirectToPage("../Index");
                 }
                 else
                 {
