@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.AspNetCore.Http;
 using ConsolasExito.App.Dominio;
 using ConsolasExito.App.Persistencia;
 
@@ -30,6 +31,13 @@ namespace ConsolasExito.App.Presentacion.Pages
 
             if (empleado != null)
             {
+
+                if (empleado.PrimerIngreso)
+                {
+                    HttpContext.Session.SetString("username", Usuario);
+                    return RedirectToPage("../CambioPassword/CambioPassword");
+                }
+
                 if (empleado.Password.Equals(Password))
                 {
                     return RedirectToPage("../Index");

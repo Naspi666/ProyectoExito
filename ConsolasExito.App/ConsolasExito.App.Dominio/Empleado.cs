@@ -15,8 +15,7 @@ namespace ConsolasExito.App.Dominio
         public Sucursal Sucursal { get; set; }
         public NombreRol RolPerson { get; set; }
         public bool accesoReportes { get; set; }
-        
-
+        public bool PrimerIngreso { get; set; }
 
 
         //Constructores

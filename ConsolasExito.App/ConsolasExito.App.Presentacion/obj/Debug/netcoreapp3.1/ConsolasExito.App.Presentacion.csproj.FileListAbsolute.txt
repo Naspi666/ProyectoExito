@@ -179,3 +179,4 @@ C:\Users\willi\OneDrive\Documents\ProyectoExito\ProyectoExitoGit\RepositorioProy
 C:\Users\willi\OneDrive\Documents\ProyectoExito\ProyectoExitoGit\RepositorioProyectoExito\ProyectoExito\ConsolasExito.App\ConsolasExito.App.Presentacion\obj\Debug\netcoreapp3.1\ConsolasExito.App.Presentacion.pdb
 C:\Users\willi\OneDrive\Documents\ProyectoExito\ProyectoExitoGit\RepositorioProyectoExito\ProyectoExito\ConsolasExito.App\ConsolasExito.App.Presentacion\obj\Debug\netcoreapp3.1\ConsolasExito.App.Presentacion.genruntimeconfig.cache
 C:\Users\willi\OneDrive\Documents\ProyectoExito\ProyectoExitoGit\RepositorioProyectoExito\ProyectoExito\ConsolasExito.App\ConsolasExito.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Login\Login.cshtml.g.cs
+C:\Users\willi\OneDrive\Documents\ProyectoExito\ProyectoExitoGit\RepositorioProyectoExito\ProyectoExito\ConsolasExito.App\ConsolasExito.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\CambioPassword\CambioPassword.cshtml.g.cs
