@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
+using Microsoft.AspNetCore.Http;
 
 namespace ConsolasExito.App.Presentacion.Pages
 {
@@ -17,9 +18,9 @@ namespace ConsolasExito.App.Presentacion.Pages
             _logger = logger;
         }
 
-        public void OnGet()
+        public IActionResult OnGet()
         {
-
+            return RedirectToPage("./Login/Login");
         }
     }
 }
