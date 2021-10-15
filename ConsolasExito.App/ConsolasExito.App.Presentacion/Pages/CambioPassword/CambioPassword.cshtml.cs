@@ -25,19 +25,21 @@ namespace ConsolasExito.App.Presentacion.Pages
         public void OnGet()
         {
         }
-        public void OnPost()
+        public IActionResult OnPost()
         {
             Conexion conexion = new Conexion();
-            string Username = HttpContext.Session.GetString("username");
+            var Username = HttpContext.Session.GetString("username");
             Empleado empleado = conexion.Empleados.FirstOrDefault(e => e.Usuario == Username);
             if (!Contrasenia.Equals(RepeatContrasenia))
             {
                 MensajeContrasenia = "Las contraseñas no coinciden";
+                return Page();
             }else
             {
                 empleado.Password=Contrasenia;
                 empleado.PrimerIngreso=false;
                 conexion.SaveChanges();
+                return RedirectToPage("../Index");
             }
         }
     }
