@@ -36,6 +36,7 @@ namespace ConsolasExito.App.Presentacion.Pages.CrudEmpleado
                 return Page();
             }
             Empleado.PrimerIngreso=true;
+            Empleado.Password=Empleado.Identidad;
             _context.Empleados.Add(Empleado);
             await _context.SaveChangesAsync();
 

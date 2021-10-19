@@ -32,7 +32,7 @@ namespace ConsolasExito.App.Presentacion.Pages
             if (empleado != null)
             {
 
-                if (empleado.PrimerIngreso)
+                if (empleado.PrimerIngreso && empleado.Password.Equals(empleado.Identidad) && empleado.Password.Equals(Password))
                 {
                     HttpContext.Session.SetString("username", Usuario);
                     return RedirectToPage("../CambioPassword/CambioPassword");
